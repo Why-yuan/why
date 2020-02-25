@@ -1,20 +1,20 @@
 package com.why.jcartadministrationback.dto.out;
 
-public class AdministratorGetProfileOutDTO {
-    private Integer administratorId;
+public class CustomerListOutDTO {
+    private Integer customerId;
     private String username;
     private String realName;
+    private String mobile;
     private String email;
-    private String avatarUrl;
     private Byte status;
     private Long createTimestamp;
 
-    public Integer getAdministratorId() {
-        return administratorId;
+    public Integer getCustomerId() {
+        return customerId;
     }
 
-    public void setAdministratorId(Integer administratorId) {
-        this.administratorId = administratorId;
+    public void setCustomerId(Integer customerId) {
+        this.customerId = customerId;
     }
 
     public String getUsername() {
@@ -33,20 +33,20 @@ public class AdministratorGetProfileOutDTO {
         this.realName = realName;
     }
 
+    public String getMobile() {
+        return mobile;
+    }
+
+    public void setMobile(String mobile) {
+        this.mobile = mobile;
+    }
+
     public String getEmail() {
         return email;
     }
 
     public void setEmail(String email) {
         this.email = email;
-    }
-
-    public String getAvatarUrl() {
-        return avatarUrl;
-    }
-
-    public void setAvatarUrl(String avatarUrl) {
-        this.avatarUrl = avatarUrl;
     }
 
     public Byte getStatus() {

@@ -1,11 +1,8 @@
 package com.why.jcartadministrationback.dto.out;
 
-public class AdministratorGetProfileOutDTO {
+public class AdministratorListOutDTO {
     private Integer administratorId;
     private String username;
-    private String realName;
-    private String email;
-    private String avatarUrl;
     private Byte status;
     private Long createTimestamp;
 
@@ -23,30 +20,6 @@ public class AdministratorGetProfileOutDTO {
 
     public void setUsername(String username) {
         this.username = username;
-    }
-
-    public String getRealName() {
-        return realName;
-    }
-
-    public void setRealName(String realName) {
-        this.realName = realName;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public String getAvatarUrl() {
-        return avatarUrl;
-    }
-
-    public void setAvatarUrl(String avatarUrl) {
-        this.avatarUrl = avatarUrl;
     }
 
     public Byte getStatus() {
