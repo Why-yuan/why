@@ -1,7 +1,7 @@
 package com.why.jcartadministrationback.controller;
 
-import io.cjf.jcartadministrationback.dto.in.OrderHistoryCreateInDTO;
-import io.cjf.jcartadministrationback.dto.out.OrderHistoryListOutDTO;
+import com.why.jcartadministrationback.dto.in.OrderHistoryCreateInDTO;
+import com.why.jcartadministrationback.dto.out.OrderHistoryListOutDTO;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
